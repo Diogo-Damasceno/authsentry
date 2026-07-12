@@ -1,4 +1,4 @@
-from auth_log_watch import core
+from authsentry import core
 
 def test_scan_match():
     pat, label = core.PATTERNS[0]

@@ -1,7 +1,7 @@
 """CLI de auth_log_watch."""
 from __future__ import annotations
 import sys
-from auth_log_watch.core import main as _core_main
+from authsentry.core import main as _core_main
 
 def main(argv=None):
     return _core_main(argv if argv is not None else sys.argv[1:])
